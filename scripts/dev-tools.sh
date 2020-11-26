@@ -101,7 +101,7 @@ function install_oh_my_zsh()
     then
         message "Installing oh-my-zsh (https://github.com/ohmyzsh/ohmyzsh)"
         # https://github.com/ohmyzsh/ohmyzsh 
-        sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+        sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" install-zsh --unattended
     else
         message "oh_my_zsh is already installed"
     fi    
